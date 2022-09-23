@@ -1,0 +1,97 @@
+body{
+    margin: 0%;
+    background-color: lightgray;
+}
+span{
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+#image{
+    width: 100%;
+    height: 500px;
+}
+h3{
+    text-align: center;
+    color: blue;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    color:blue;
+}
+.pic-info{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 200px;
+    width: 350px;
+}
+.pic{
+    display: inline-block;
+    margin-left: 55px;
+    border: 1px solid #ccc;
+    padding-top: 9px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px #000 ;
+    
+}
+.pic:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0% auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(31, 142, 185);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    }
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+font-size: 25px;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: rgb(13, 13, 179);
+}
+footer{
+    background-color: #1f8db9fb;
+   text-align: right;
+    width: 100%;
+    margin: 0% auto;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+h1{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-style: 800%;
+    font-style: oblique;
+}
+.centered{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    padding: 14px 16px;
+    
+
+}
